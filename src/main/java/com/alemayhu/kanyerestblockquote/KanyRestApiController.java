@@ -13,7 +13,7 @@ public class KanyRestApiController {
     @Autowired
     private KanyeRestApiService service;
 
-    @CrossOrigin(origins = "https://kanye-rest-403314.ew.r.appspot.com/api/quote")
+    @CrossOrigin(origins = "https://kanye-htmx.netlify.app")
 
     @GetMapping("/quote")
     public String getData() {
